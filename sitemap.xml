@@ -2,13 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://LBTer.github.io/categories/</loc>
+    <lastmod>2024-08-29T02:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://LBTer.github.io/</loc>
-    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-29T02:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/operate/</loc>
+    <lastmod>2024-08-29T02:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/post/</loc>
+    <lastmod>2024-08-29T02:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/redis/</loc>
+    <lastmod>2024-08-29T02:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-08-29-redis-operate/</loc>
+    <lastmod>2024-08-29T02:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/</loc>
+    <lastmod>2024-08-29T02:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/categories/tech/</loc>
+    <lastmod>2024-08-29T02:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/interview/</loc>
+    <lastmod>2024-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-08-29-redis-interview/</loc>
+    <lastmod>2024-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-08-28-growing/</loc>
+    <lastmod>2024-08-28T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/categories/grow/</loc>
+    <lastmod>2024-08-28T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/categories/plan/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/2024/08/28/hello-world/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/2024/08/28/resume-todo/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/about/</loc>
@@ -17,12 +53,8 @@
   </url><url>
     <loc>https://LBTer.github.io/search/placeholder/</loc>
   </url><url>
-    <loc>https://LBTer.github.io/categories/</loc>
-  </url><url>
     <loc>https://LBTer.github.io/archive/</loc>
   </url><url>
     <loc>https://LBTer.github.io/search/</loc>
-  </url><url>
-    <loc>https://LBTer.github.io/tags/</loc>
   </url>
 </urlset>

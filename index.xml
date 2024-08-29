@@ -6,14 +6,42 @@
     <description>Recent content on LBT的 Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 02:00:00 +0000</lastBuildDate>
     <atom:link href="https://LBTer.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>redis实操型学习</title>
+      <link>https://LBTer.github.io/post/2024-08-29-redis-operate/</link>
+      <pubDate>Thu, 29 Aug 2024 02:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-08-29-redis-operate/</guid>
+      <description>实践输出型学习法，可以从这个例子开始 1、从redis安装和运行入手 查看官网的安装方法，centos上安装只需通过yum和systemctl管</description>
+    </item>
+    <item>
+      <title>redis面试问题</title>
+      <link>https://LBTer.github.io/post/2024-08-29-redis-interview/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-08-29-redis-interview/</guid>
+      <description>1、redis面试资料整理 redis20道面试题 小林redis常见面试题 redis常见面试题总结 redis56题 redis面试题+操作 2、典</description>
+    </item>
+    <item>
+      <title>“成为独立的个人&#34;</title>
+      <link>https://LBTer.github.io/post/2024-08-28-growing/</link>
+      <pubDate>Wed, 28 Aug 2024 09:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-08-28-growing/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;我们都需要一个活一次的理由&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title>Welcome to LBT Blog</title>
       <link>https://LBTer.github.io/2024/08/28/hello-world/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://LBTer.github.io/2024/08/28/hello-world/</guid>
       <description>“Yeah It&amp;rsquo;s on. 好像一切都来得及” Hello World!</description>
+    </item>
+    <item>
+      <title>技术类面试todo</title>
+      <link>https://LBTer.github.io/2024/08/28/resume-todo/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/2024/08/28/resume-todo/</guid>
+      <description>技术面试准备 leetcode刷题 八股文 项目总结 简历准备和更新 公司调研 1、leetcode刷题 刷题 * 总结复习阶段 2、八股文 go语言相关 常用组件</description>
     </item>
     <item>
       <title></title>

@@ -6,14 +6,21 @@
     <description>Recent content in Posts on LBT的 Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Aug 2024 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://LBTer.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>redis实操型学习</title>
-      <link>https://LBTer.github.io/post/2024-08-29-redis-operate/</link>
+      <title>redis实操</title>
+      <link>https://LBTer.github.io/post/2024-08-30-redis-operate/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-08-30-redis-operate/</guid>
+      <description>1、从redis安装和运行入手 查看官网的安装方法，centos上安装只需通过yum和systemctl管理 sudo yum install redis sudo systemctl enable redis sudo systemctl start redis 查看使用r</description>
+    </item>
+    <item>
+      <title>redis概念学习</title>
+      <link>https://LBTer.github.io/post/2024-08-29-redis-concept/</link>
       <pubDate>Thu, 29 Aug 2024 02:00:00 +0000</pubDate>
-      <guid>https://LBTer.github.io/post/2024-08-29-redis-operate/</guid>
-      <description>实践输出型学习法，可以从这个例子开始 1、从redis安装和运行入手 查看官网的安装方法，centos上安装只需通过yum和systemctl管</description>
+      <guid>https://LBTer.github.io/post/2024-08-29-redis-concept/</guid>
+      <description>1、数据结构 redis的诞生也有较久的时间，国内已有经典入门书籍《redis设计与实现》，本篇章中的图片来自相应网站 学习redis的设计理念</description>
     </item>
     <item>
       <title>redis面试问题</title>
@@ -21,13 +28,6 @@
       <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://LBTer.github.io/post/2024-08-29-redis-interview/</guid>
       <description>1、redis面试资料整理 redis20道面试题 小林redis常见面试题 redis常见面试题总结 redis56题 redis面试题+操作 2、典</description>
-    </item>
-    <item>
-      <title>“成为独立的个人&#34;</title>
-      <link>https://LBTer.github.io/post/2024-08-28-growing/</link>
-      <pubDate>Wed, 28 Aug 2024 09:00:00 +0000</pubDate>
-      <guid>https://LBTer.github.io/post/2024-08-28-growing/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;我们都需要一个活一次的理由&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>Welcome to LBT Blog</title>
@@ -41,7 +41,7 @@
       <link>https://LBTer.github.io/2024/08/28/resume-todo/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://LBTer.github.io/2024/08/28/resume-todo/</guid>
-      <description>技术面试准备 leetcode刷题 八股文 项目总结 简历准备和更新 公司调研 1、leetcode刷题 刷题 * 总结复习阶段 2、八股文 go语言相关 常用组件</description>
+      <description>技术面试准备 leetcode刷题 八股文 项目总结 简历准备和更新 公司调研 1、leetcode刷题 刷题 leetcode100题 反复复习并整理 总结复</description>
     </item>
   </channel>
 </rss>

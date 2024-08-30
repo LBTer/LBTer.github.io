@@ -6,14 +6,21 @@
     <description>Recent content in Redis on LBT的 Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Aug 2024 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://LBTer.github.io/tags/redis/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>redis实操型学习</title>
-      <link>https://LBTer.github.io/post/2024-08-29-redis-operate/</link>
+      <title>redis实操</title>
+      <link>https://LBTer.github.io/post/2024-08-30-redis-operate/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-08-30-redis-operate/</guid>
+      <description>1、从redis安装和运行入手 查看官网的安装方法，centos上安装只需通过yum和systemctl管理 sudo yum install redis sudo systemctl enable redis sudo systemctl start redis 查看使用r</description>
+    </item>
+    <item>
+      <title>redis概念学习</title>
+      <link>https://LBTer.github.io/post/2024-08-29-redis-concept/</link>
       <pubDate>Thu, 29 Aug 2024 02:00:00 +0000</pubDate>
-      <guid>https://LBTer.github.io/post/2024-08-29-redis-operate/</guid>
-      <description>实践输出型学习法，可以从这个例子开始 1、从redis安装和运行入手 查看官网的安装方法，centos上安装只需通过yum和systemctl管</description>
+      <guid>https://LBTer.github.io/post/2024-08-29-redis-concept/</guid>
+      <description>1、数据结构 redis的诞生也有较久的时间，国内已有经典入门书籍《redis设计与实现》，本篇章中的图片来自相应网站 学习redis的设计理念</description>
     </item>
     <item>
       <title>redis面试问题</title>

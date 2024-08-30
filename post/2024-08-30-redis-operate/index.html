@@ -15,9 +15,9 @@
     
 
     
-    <meta name="title" content="" />
-    <meta property="og:title" content="" />
-    <meta property="twitter:title" content="" />
+    <meta name="title" content="redis实操" />
+    <meta property="og:title" content="redis实操" />
+    <meta property="twitter:title" content="redis实操" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="罗浩远, luohaoyuan, LBT Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Kubernetes, 微服务, Microservice">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>LBT的博客 | LuoHaoyuan Blog</title>
+    <title>redis实操 | LBT的博客 | LuoHaoyuan Blog</title>
 
-    <link rel="canonical" href="/search/placeholder/">
+    <link rel="canonical" href="/post/2024-08-30-redis-operate/">
 
     
     
@@ -170,17 +170,25 @@
                 <div class="post-heading">
                     <div class="tags">
                         
+                        <a class="tag" href="/tags/redis" title="redis">
+                            redis
+                        </a>
+                        
+                        <a class="tag" href="/tags/operate" title="operate">
+                            operate
+                        </a>
+                        
                     </div>
-                    <h1></h1>
+                    <h1>redis实操</h1>
                     <h2 class="subheading"></h2>
                     <span class="meta">
                         
                             Posted by 
                             
-                                    LBT的 Blog
+                                     &#34;LBT&#34;
                              
                             on 
-                            Monday, January 1, 0001
+                            Friday, August 30, 2024
                             
                             
                             
@@ -206,10 +214,32 @@
                 post-container">
 
                 
-                
+                <h2 id="1从redis安装和运行入手">1、从redis安装和运行入手</h2>
+<p>查看<a href="https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/install-redis-on-linux/">官网</a>的安装方法，centos上安装只需通过yum和systemctl管理</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo yum install redis
+</span></span><span style="display:flex;"><span>sudo systemctl <span style="color:#8be9fd;font-style:italic">enable</span> redis
+</span></span><span style="display:flex;"><span>sudo systemctl start redis
+</span></span></code></pre></div><p>查看使用redis，ping有回应pong即成功</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>redis-cli
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># 127.0.0.1:6379&gt; ping</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># PONG</span>
+</span></span></code></pre></div><h2 id="2go-sdk连接redis">2、go sdk连接redis</h2>
+<p>todo</p>
+
 
                 
 
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/2024-08-29-redis-concept/" data-toggle="tooltip" data-placement="top" title="redis概念学习">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
                 
 
                 

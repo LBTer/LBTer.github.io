@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<meta name="generator" content="Hugo 0.133.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.133.0">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,8 +11,8 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="http://localhost:1313//img/michal-prucha-unsplash.jpg">
-    <meta property="twitter:image" content="http://localhost:1313//img/michal-prucha-unsplash.jpg" />
+    <meta property="og:image" content="https://LBTer.github.io//img/michal-prucha-unsplash.jpg">
+    <meta property="twitter:image" content="https://LBTer.github.io//img/michal-prucha-unsplash.jpg" />
     
 
     
@@ -103,15 +103,11 @@
                     
                         
                         <li>
-                            <a href="/categories/life/">life</a>
+                            <a href="/categories/plan/">plan</a>
                         </li>
                         
                         <li>
                             <a href="/categories/tech/">tech</a>
-                        </li>
-                        
-                        <li>
-                            <a href="/categories/tips/">tips</a>
                         </li>
                         
                     
@@ -167,7 +163,7 @@
                 <div class="site-heading">
                     <h1>LBT的 Blog </h1>
                     
-		    <span class="subheading">路在脚下，心向远方</span>
+		    <span class="subheading">60 is better than 100</span>
                 </div>
             </div>
         </div>
@@ -192,107 +188,20 @@
 <div data-pagefind-ignore="all">
 
 <div class="post-preview">
-    <a href="http://localhost:1313/2018/05/23/service_2_service_auth/">
+    <a href="https://LBTer.github.io/post/2024-08-30-redis-operate/">
         <h2 class="post-title">
-            微服务安全沉思录之二
+            redis实操
         </h2>
-	
-        <h3 class="post-subtitle">
-            服务间认证与鉴权
-        </h3>
 	
         <div class="post-content-preview">
 	
-            除来自用户的访问请求以外，微服务应用中的各个微服务相互之间还有大量的访问,根据应用系统数据敏感程度不同，对于系统内微服务的访问也需要进行相应的安全控制。
-        
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Posted by     &#34;赵化冰&#34; on Wednesday, May 23, 2018
-        
-        
-    
-    </p>
-
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="http://localhost:1313/2018/05/22/user_authentication_authorization/">
-        <h2 class="post-title">
-            微服务安全沉思录之一
-        </h2>
-	
-        <h3 class="post-subtitle">
-            用户访问认证与鉴权
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            这段时间对之前微服务安全相关的一些想法进行了进一步总结和归纳，理清在之前文章里面没有想得太清楚的地方，例如服务间的认证与鉴权以及用户身份在服务调用链中的传递。在这一系列博客里面将分为三个部分对微服务安全进行系统阐述：用户访问认证与鉴权，服务间认证与鉴权，外部系统访问控制。
-        
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Posted by     &#34;赵化冰&#34; on Wednesday, May 23, 2018
-        
-        
-    
-    </p>
-
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="http://localhost:1313/2018/05/23/istio-auto-injection-with-webhook/">
-        <h2 class="post-title">
-            Istio Sidecar自动注入原理
-        </h2>
-	
-        <h3 class="post-subtitle">
-            Kubernetes webhook扩展机制解析
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            Kubernets 1.9版本引入了Admission Webhook(web 回调)扩展机制，通过Webhook,开发者可以非常灵活地对Kubernets API Server的功能进行扩展，在API Server创建资源时对资源进行验证或者修改。 Istio 0.7版本就利用了Kubernets webhook实现了sidecar的自动注入。
-        
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Posted by     &#34;赵化冰&#34; on Wednesday, May 23, 2018
-        
-        
-    
-    </p>
-
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="http://localhost:1313/2018/05/01/may-day-jiulonghu/">
-        <h2 class="post-title">
-            川西秘境探险
-        </h2>
-	
-        <h3 class="post-subtitle">
-            2018五一甘堡藏寨，九龙湖自驾游记
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            <h2 id="寻浮云牧场不遇">寻浮云牧场不遇</h2>
-<p>五一节前的一周内，几个朋友就纷纷坐不住了，一个二个不再安心上班，开始在微信群里讨论过节要到哪里耍。
-大家思来想去，最后决定还是去理县方向。因为根据多年自驾的经验，只要出了汶川，沿途都是风景。</p>
+            1、从redis安装和运行入手 查看官网的安装方法，centos上安装只需通过yum和systemctl管理 sudo yum install redis sudo systemctl enable redis sudo systemctl start redis 查看使用r
        
         </div>
     </a>
     <p class="post-meta">
     
-        Posted by 赵化冰 on Tuesday, May 1, 2018
+        Posted by LBT on Friday, August 30, 2024
         
         
     
@@ -302,24 +211,93 @@
 <hr>
 
 <div class="post-preview">
-    <a href="http://localhost:1313/2018/04/16/using-helm-to-deploy-to-kubernetes/">
+    <a href="https://LBTer.github.io/post/2024-08-30-tech/">
         <h2 class="post-title">
-            Helm介绍
+            技术补盲
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            1、概念 开源协议分类和了解已知MIT、APACHE、BSD可用于开源
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by LBT on Friday, August 30, 2024
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://LBTer.github.io/post/2024-08-30-project-insight/">
+        <h2 class="post-title">
+            项目细节
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            1、数据源 2、更新项目 3、爬取项目 3.1 要点分析 爬取量如何确定？ ip代理商的选用评定 4、
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by LBT on Friday, August 30, 2024
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://LBTer.github.io/post/2024-08-29-redis-concept/">
+        <h2 class="post-title">
+            redis概念学习
         </h2>
 	
         <h3 class="post-subtitle">
-            强大的Kubernetes包管理工具
+            快速回顾redis知识
         </h3>
 	
         <div class="post-content-preview">
 	
-            Helm是Kubernetes生态系统中的一个软件包管理工具。本文将介绍为何要使用Helm进行Kubernetes软件包管理，澄清Helm中使用到的相关概念，并通过一个具体的示例学习如何使用Helm打包，分发，安装，升级及回退Kubernetes应用。
+            1、数据结构 redis的诞生也有较久的时间，国内已有经典入门书籍《redis设计与实现》，本篇章中的图片来自相应网站 学习redis的设计理念
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by LBT on Thursday, August 29, 2024
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://LBTer.github.io/post/2024-08-29-redis-interview/">
+        <h2 class="post-title">
+            redis面试问题
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            收集面试问题集并总结
         
         </div>
     </a>
     <p class="post-meta">
     
-        Posted by 赵化冰 on Monday, April 16, 2018
+        Posted by LBT on Thursday, August 29, 2024
         
         
     
@@ -423,6 +401,18 @@
 	
     
     
+    <section>
+        <hr>
+        <h5>QUICK LINKS</h5>
+        <ul class="list-inline">
+            
+            <li><a target="_blank" href="https://pxhere.com">Pxhere</a></li>
+            
+            <li><a target="_blank" href="https://unsplash.com">unsplash</a></li>
+            
+        </ul>
+    </section>
+    
     
     
     <section>
@@ -432,50 +422,8 @@
             
             
                
-            
-               
-                    <a href="/tags/docker" title="docker">
-                        docker
-                    </a>
-               
-            
-               
-            
-               
-                    <a href="/tags/istio" title="istio">
-                        istio
-                    </a>
-               
-            
-               
-                    <a href="/tags/kubernetes" title="kubernetes">
-                        kubernetes
-                    </a>
-               
-            
-               
-                    <a href="/tags/microservice" title="microservice">
-                        microservice
-                    </a>
-               
-            
-               
-            
-               
-                    <a href="/tags/security" title="security">
-                        security
-                    </a>
-               
-            
-               
-                    <a href="/tags/service-mesh" title="service mesh">
-                        service mesh
-                    </a>
-               
-            
-               
-                    <a href="/tags/tips" title="tips">
-                        tips
+                    <a href="/tags/ai" title="ai">
+                        ai
                     </a>
                
             
@@ -483,6 +431,30 @@
             
                
             
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/redis" title="redis">
+                        redis
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/tag2" title="tag2">
+                        tag2
+                    </a>
                
             
         </div>
@@ -490,14 +462,6 @@
     
 
     
-    
-    <section>
-        <hr class="hidden-sm hidden-xs">
-        <h5>FRIENDS</h5>
-        <ul class="list-inline">
-            
-        </ul>
-    </section>
     
     
 </div>
@@ -563,26 +527,9 @@
             
             
            
-                   <li>
-                       <a href='/index.xml' rel="alternate" type="application/rss+xml" title="LBT的 Blog" >
-                           <span class="fa-stack fa-lg">
-                               <i class="fas fa-circle fa-stack-2x"></i>
-                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-                           </span>
-                       </a>
-                   </li>
-            
              </ul>
 		<p class="copyright text-muted">
                     Copyright &copy; LBT的 Blog 2024
-                    
-                    <br>
-                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
-                    <iframe
-                        style="margin-left: 2px; margin-bottom:-5px;"
-                        frameborder="0" scrolling="0" width="100px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
-                    </iframe>
                     
                 </p>
             </div>

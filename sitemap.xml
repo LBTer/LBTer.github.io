@@ -2,28 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://LBTer.github.io/</loc>
-    <lastmod>2024-08-30T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://LBTer.github.io/post/</loc>
-    <lastmod>2024-08-30T09:00:00+00:00</lastmod>
+    <loc>https://LBTer.github.io/post/2024-09-02-the-lean-startup/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/categories/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/startup/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/tag2/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/categories/tech/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-09-01-ai-question/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/ai/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/build/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-09-01-redis/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/redis/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-09-01-system-design/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/sytem-design/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-08-30-ai-question/</loc>
+    <lastmod>2024-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/insight/</loc>
     <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/tags/operate/</loc>
     <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://LBTer.github.io/tags/redis/</loc>
+    <loc>https://LBTer.github.io/tags/project/</loc>
     <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/post/2024-08-30-redis-operate/</loc>
     <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://LBTer.github.io/tags/</loc>
+    <loc>https://LBTer.github.io/tags/tag1/</loc>
     <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://LBTer.github.io/categories/tech/</loc>
+    <loc>https://LBTer.github.io/post/2024-08-30-tech/</loc>
+    <lastmod>2024-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-08-30-project-insight/</loc>
     <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/tags/concept/</loc>

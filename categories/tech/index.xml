@@ -6,14 +6,63 @@
     <description>Recent content in Tech on LBT的 Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://LBTer.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《精益创业》阅读体验</title>
+      <link>https://LBTer.github.io/post/2024-09-02-the-lean-startup/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-09-02-the-lean-startup/</guid>
+      <description>概况 互联网化和全球化的主题下，公司发展的提炼： 目标顾客&amp;ndash;小范围试验&amp;ndash;反馈修改&amp;ndash;产品迭代&amp;ndash;获得</description>
+    </item>
+    <item>
+      <title>20240901问题</title>
+      <link>https://LBTer.github.io/post/2024-09-01-ai-question/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-09-01-ai-question/</guid>
+      <description>qa1: 爬取项目使用外部ip池时，爬取流量的流经路线: ans:</description>
+    </item>
+    <item>
+      <title>build your own redis</title>
+      <link>https://LBTer.github.io/post/2024-09-01-redis/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-09-01-redis/</guid>
+      <description>练习网站</description>
+    </item>
+    <item>
+      <title>System Design Interview 解读</title>
+      <link>https://LBTer.github.io/post/2024-09-01-system-design/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-09-01-system-design/</guid>
+      <description>1、全书架构 全书分为两部分，第一部分是前三章，分别为：一个服务是怎么发展的、一些基本的数据估计、系统设计面试步骤。 github上有全书的中文</description>
+    </item>
+    <item>
+      <title>20240830问题</title>
+      <link>https://LBTer.github.io/post/2024-08-30-ai-question/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-08-30-ai-question/</guid>
+      <description>qa1: 爬取项目使用外部ip池时，爬取流量的流经路线: ans: 在使用外部 IP 池进行爬取项目时，爬取流量的流经路线通常如下： 发起请求： 爬虫程序在你的服务器或</description>
+    </item>
     <item>
       <title>redis实操</title>
       <link>https://LBTer.github.io/post/2024-08-30-redis-operate/</link>
       <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://LBTer.github.io/post/2024-08-30-redis-operate/</guid>
       <description>1、从redis安装和运行入手 查看官网的安装方法，centos上安装只需通过yum和systemctl管理 sudo yum install redis sudo systemctl enable redis sudo systemctl start redis 查看使用r</description>
+    </item>
+    <item>
+      <title>技术补盲</title>
+      <link>https://LBTer.github.io/post/2024-08-30-tech/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-08-30-tech/</guid>
+      <description>1、概念 开源协议分类和了解已知MIT、APACHE、BSD可用于开源</description>
+    </item>
+    <item>
+      <title>项目细节</title>
+      <link>https://LBTer.github.io/post/2024-08-30-project-insight/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-08-30-project-insight/</guid>
+      <description>1、数据源 2、更新项目 3、爬取项目 3.1 要点分析 爬取量如何确定？ ip代理商的选用评定 4、</description>
     </item>
     <item>
       <title>redis概念学习</title>
@@ -27,7 +76,7 @@
       <link>https://LBTer.github.io/post/2024-08-29-redis-interview/</link>
       <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://LBTer.github.io/post/2024-08-29-redis-interview/</guid>
-      <description>1、redis面试资料整理 redis20道面试题 小林redis常见面试题 redis常见面试题总结 redis56题 redis面试题+操作 2、典</description>
+      <description>1、redis面试资料整理 redis20道面试题 推荐小林redis常见面试题，还列出了7.0的变化 redis常见面试题总结 redis56题 r</description>
     </item>
   </channel>
 </rss>

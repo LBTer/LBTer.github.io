@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TODO on LBT的 Blog</title>
+    <link>https://LBTer.github.io/categories/todo/</link>
+    <description>Recent content in TODO on LBT的 Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://LBTer.github.io/categories/todo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《精益创业》阅读体验</title>
+      <link>https://LBTer.github.io/post/2024-09-02-the-lean-startup/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-09-02-the-lean-startup/</guid>
+      <description>概况 互联网化和全球化的主题下，公司发展的提炼： 目标顾客&amp;ndash;小范围试验&amp;ndash;反馈修改&amp;ndash;产品迭代&amp;ndash;获得</description>
+    </item>
+    <item>
+      <title>网络协议知识一览</title>
+      <link>https://LBTer.github.io/post/2024-09-02-network/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-09-02-network/</guid>
+      <description>逻辑链路层 VLAN: 虚拟局域网 ARP: 将逻辑和物理关联到一起 网络层 IP ICMP 传输层 UDP，协议非常简单（源port，目标port，报头长度，） TCP，协议复杂（</description>
+    </item>
+    <item>
+      <title>《System Design Interview》解读</title>
+      <link>https://LBTer.github.io/post/2024-09-01-system-design/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-09-01-system-design/</guid>
+      <description>1、全书架构 全书分为两部分，第一部分是前三章，分别为：一个服务是怎么发展的、一些基本的数据估计、系统设计面试步骤。 github上有全书的中文</description>
+    </item>
+    <item>
+      <title>redis实操</title>
+      <link>https://LBTer.github.io/post/2024-08-30-redis-operate/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-08-30-redis-operate/</guid>
+      <description>1、安装并运行redis 查看官网的安装方法，centos上安装只需通过yum和systemctl管理 sudo yum install redis sudo systemctl enable redis sudo systemctl start redis 查看使用redi</description>
+    </item>
+    <item>
+      <title>技术补盲</title>
+      <link>https://LBTer.github.io/post/2024-08-30-tech/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-08-30-tech/</guid>
+      <description>1、概念 开源协议分类和了解已知MIT、APACHE、BSD可用于开源</description>
+    </item>
+    <item>
+      <title>技术类面试todo</title>
+      <link>https://LBTer.github.io/post/2024-08-28-resume-todo/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-08-28-resume-todo/</guid>
+      <description>技术面试准备 leetcode刷题 八股文 项目总结 简历准备和更新 公司调研 1、leetcode刷题 刷题 leetcode100题 反复复习并整理 总结复</description>
+    </item>
+  </channel>
+</rss>

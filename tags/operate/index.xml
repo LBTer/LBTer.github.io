@@ -13,7 +13,7 @@
       <link>https://LBTer.github.io/post/2024-08-30-redis-operate/</link>
       <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://LBTer.github.io/post/2024-08-30-redis-operate/</guid>
-      <description>1、从redis安装和运行入手 查看官网的安装方法，centos上安装只需通过yum和systemctl管理 sudo yum install redis sudo systemctl enable redis sudo systemctl start redis 查看使用r</description>
+      <description>1、安装并运行redis 查看官网的安装方法，centos上安装只需通过yum和systemctl管理 sudo yum install redis sudo systemctl enable redis sudo systemctl start redis 查看使用redi</description>
     </item>
   </channel>
 </rss>

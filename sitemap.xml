@@ -2,44 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://LBTer.github.io/post/2024-09-02-ai-question/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/ai/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/categories/ai/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-09-04-build-own-x/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/categories/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/docker/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/redis/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/tag1/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/tag2/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/categories/tech/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-09-04-k8s-build/</loc>
+    <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://LBTer.github.io/post/2024-09-02-the-lean-startup/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://LBTer.github.io/categories/</loc>
+    <loc>https://LBTer.github.io/categories/book/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://LBTer.github.io/</loc>
+    <loc>https://LBTer.github.io/tags/books/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://LBTer.github.io/post/</loc>
+    <loc>https://LBTer.github.io/categories/knows/</loc>
+    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/network/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/tags/startup/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://LBTer.github.io/tags/tag2/</loc>
+    <loc>https://LBTer.github.io/categories/todo/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://LBTer.github.io/tags/</loc>
+    <loc>https://LBTer.github.io/post/2024-09-02-network/</loc>
     <lastmod>2024-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://LBTer.github.io/categories/tech/</loc>
-    <lastmod>2024-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://LBTer.github.io/post/2024-09-01-ai-question/</loc>
-    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://LBTer.github.io/tags/ai/</loc>
-    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://LBTer.github.io/tags/build/</loc>
-    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://LBTer.github.io/post/2024-09-01-redis/</loc>
-    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://LBTer.github.io/tags/redis/</loc>
-    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/post/2024-09-01-system-design/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
@@ -60,9 +87,6 @@
     <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/post/2024-08-30-redis-operate/</loc>
-    <lastmod>2024-08-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://LBTer.github.io/tags/tag1/</loc>
     <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/post/2024-08-30-tech/</loc>
@@ -86,10 +110,10 @@
     <loc>https://LBTer.github.io/categories/plan/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://LBTer.github.io/2024/08/28/hello-world/</loc>
+    <loc>https://LBTer.github.io/post/2024-08-28-hello-world/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://LBTer.github.io/2024/08/28/resume-todo/</loc>
+    <loc>https://LBTer.github.io/post/2024-08-28-resume-todo/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/about/</loc>

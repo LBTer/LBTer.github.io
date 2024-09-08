@@ -10,10 +10,10 @@
     <atom:link href="https://LBTer.github.io/categories/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>20240904问题</title>
-      <link>https://LBTer.github.io/post/2024-09-02-ai-question/</link>
+      <link>https://LBTer.github.io/post/2024-09-04-ai-question/</link>
       <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://LBTer.github.io/post/2024-09-02-ai-question/</guid>
-      <description>qa1: ans:</description>
+      <guid>https://LBTer.github.io/post/2024-09-04-ai-question/</guid>
+      <description>qa1: 在 Go 语言中，除了 CLONE_NEWUTS 还有哪些其他系统调用标志？ ans: \ 在 Go 语言中，syscall 包提供了对多种系统调用的访问，包括多种用于不同目的的标志。这些标</description>
     </item>
     <item>
       <title>20240830问题</title>

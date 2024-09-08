@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LIFE on LBT的 Blog</title>
+    <link>https://LBTer.github.io/categories/life/</link>
+    <description>Recent content in LIFE on LBT的 Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://LBTer.github.io/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>心理建设</title>
+      <link>https://LBTer.github.io/post/2024-09-08-psychology/</link>
+      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-09-08-psychology/</guid>
+      <description>“你的失业，在上面看来，就是一串数字。”</description>
+    </item>
+  </channel>
+</rss>

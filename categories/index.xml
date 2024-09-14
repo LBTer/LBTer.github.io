@@ -6,8 +6,22 @@
     <description>Recent content in Categories on LBT的 Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://LBTer.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book</title>
+      <link>https://LBTer.github.io/categories/book/</link>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/categories/book/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech</title>
+      <link>https://LBTer.github.io/categories/tech/</link>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/categories/tech/</guid>
+      <description></description>
+    </item>
     <item>
       <title>LIFE</title>
       <link>https://LBTer.github.io/categories/life/</link>
@@ -16,24 +30,10 @@
       <description></description>
     </item>
     <item>
-      <title>Tech</title>
-      <link>https://LBTer.github.io/categories/tech/</link>
-      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://LBTer.github.io/categories/tech/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>AI</title>
       <link>https://LBTer.github.io/categories/ai/</link>
       <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://LBTer.github.io/categories/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Book</title>
-      <link>https://LBTer.github.io/categories/book/</link>
-      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://LBTer.github.io/categories/book/</guid>
       <description></description>
     </item>
     <item>

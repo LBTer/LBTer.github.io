@@ -110,6 +110,10 @@
                         </li>
                         
                         <li>
+                            <a href="/categories/grow/">grow</a>
+                        </li>
+                        
+                        <li>
                             <a href="/categories/knows/">knows</a>
                         </li>
                         
@@ -255,6 +259,87 @@
 </li>
 </ul>
 <h2 id="3典型redis应用设计">3、典型redis应用设计</h2>
+<h2 id="4redis问题">4、redis问题</h2>
+<h3 id="redis-setnx--expire-有什么缺点如何优化">redis setnx + expire 有什么缺点，如何优化。</h3>
+<p>在 Redis 中，<code>SETNX</code> 命令用于设置键值对，仅当键不存在时。<code>EXPIRE</code> 命令用于为键设置生存时间。将这两个命令组合使用的场景通常是尝试设置一个键，并为其设置一个过期时间，如果键已经存在，则不执行任何操作。</p>
+<h4 id="缺点">缺点：</h4>
+<ol>
+<li>
+<p><strong>非原子操作</strong>：</p>
+<ul>
+<li>使用 <code>SETNX</code> 和 <code>EXPIRE</code> 是两个分开的命令，这意味着在高并发的情况下，可能会有两个客户端几乎同时检查到键不存在，然后都尝试设置它，导致键被覆盖。</li>
+</ul>
+</li>
+<li>
+<p><strong>竞态条件</strong>：</p>
+<ul>
+<li>在执行 <code>SETNX</code> 和 <code>EXPIRE</code> 之间，如果其他客户端修改了键，会导致不一致的行为。</li>
+</ul>
+</li>
+<li>
+<p><strong>延迟问题</strong>：</p>
+<ul>
+<li>如果两个命令之间有延迟，可能会影响到数据的一致性。</li>
+</ul>
+</li>
+<li>
+<p><strong>效率问题</strong>：</p>
+<ul>
+<li>执行两个命令而不是一个原子操作会增加网络开销和处理时间。</li>
+</ul>
+</li>
+</ol>
+<h4 id="优化方法">优化方法：</h4>
+<ol>
+<li>
+<p><strong>使用 <code>SETEX</code> 命令</strong>：</p>
+<ul>
+<li>Redis 2.6.12 版本引入了 <code>SETEX</code> 命令，它将设置键值对和设置过期时间的操作合并为一个原子操作。</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>SETEX key seconds value
+</span></span></code></pre></div></li>
+<li>
+<p><strong>使用 <code>PSETEX</code> 命令</strong>：</p>
+<ul>
+<li>类似于 <code>SETEX</code>，<code>PSETEX</code> 命令以毫秒为单位设置键的过期时间。</li>
+</ul>
+</li>
+<li>
+<p><strong>使用事务（MULTI/EXEC）</strong>：</p>
+<ul>
+<li>将 <code>SETNX</code> 和 <code>EXPIRE</code> 命令包装在事务中，确保它们作为单个原子操作执行。</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>MULTI
+</span></span><span style="display:flex;"><span>SETNX key value
+</span></span><span style="display:flex;"><span>EXPIRE key seconds
+</span></span><span style="display:flex;"><span>EXEC
+</span></span></code></pre></div></li>
+<li>
+<p><strong>使用 <code>SET</code> 命令的现代替代品</strong>：</p>
+<ul>
+<li>Redis 4.0 引入了新的 <code>SET</code> 命令，它支持一系列选项，包括条件设置和过期时间。</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>SET key value NX PX milliseconds
+</span></span></code></pre></div><ul>
+<li><code>NX</code> 选项表示仅当键不存在时设置键。</li>
+<li><code>PX</code> 选项用于以毫秒为单位设置过期时间。</li>
+</ul>
+</li>
+<li>
+<p><strong>使用 Lua 脚本</strong>：</p>
+<ul>
+<li>使用 Lua 脚本来保证 <code>SETNX</code> 和 <code>EXPIRE</code> 的原子性。</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>EVAL <span style="color:#f1fa8c">&#34;if redis.call(&#39;setnx&#39;, KEYS[1], ARGV[1]) == 1 then return redis.call(&#39;expire&#39;, KEYS[1], ARGV[2]) else return 0 end&#34;</span> <span style="color:#bd93f9">1</span> key value seconds
+</span></span></code></pre></div></li>
+<li>
+<p><strong>监控和测试</strong>：</p>
+<ul>
+<li>对关键操作进行适当的监控和测试，确保在高并发环境下应用的行为符合预期。</li>
+</ul>
+</li>
+</ol>
+<p>通过使用这些优化方法，你可以确保操作的原子性，减少竞态条件的风险，并提高应用程序的效率和可靠性。</p>
 
 
                 
@@ -367,6 +452,8 @@
                         <a href="/tags/tag2" title="tag2">
                             tag2
                         </a>
+                        
+                        
                         
                         
                         

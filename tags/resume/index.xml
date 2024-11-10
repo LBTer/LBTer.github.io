@@ -6,8 +6,15 @@
     <description>Recent content in Resume on LBT的 Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://LBTer.github.io/tags/resume/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>字节面经系列</title>
+      <link>https://LBTer.github.io/post/2024-09-20-bytedance/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-09-20-bytedance/</guid>
+      <description>字节面经 https://www.kancloud.cn/leonshi/programming/2577007 golang知识点 GMP调度模型, 详情 Context用法 垃圾回收，优点和缺点, 详情 go语言逃逸分析，何时堆，何时栈？详情 channel, 详情 de</description>
+    </item>
     <item>
       <title>如何作出好的简历？</title>
       <link>https://LBTer.github.io/post/2024-09-12-resume-inside-out/</link>
@@ -20,7 +27,7 @@
       <link>https://LBTer.github.io/post/2024-09-08-look-for-job/</link>
       <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://LBTer.github.io/post/2024-09-08-look-for-job/</guid>
-      <description>boss</description>
+      <description>求职网站 脉脉不行，只是交流网站 boss 牛客 猎聘 其他求职途径 视频1 视频2 总结 瞪羚企业 胡润百富&amp;ndash;&amp;gt;创业系列&amp;ndash;&amp;gt;全球</description>
     </item>
     <item>
       <title>项目总结</title>

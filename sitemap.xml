@@ -2,34 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://LBTer.github.io/post/2024-09-12-richdad/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://LBTer.github.io/categories/book/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://LBTer.github.io/categories/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/post/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://LBTer.github.io/tags/resume/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://LBTer.github.io/tags/tag1/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://LBTer.github.io/tags/tag2/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://LBTer.github.io/tags/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/categories/tech/</loc>
+    <lastmod>2024-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-10-04-startup/</loc>
+    <lastmod>2024-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-09-29-kafka-interview/</loc>
+    <lastmod>2024-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/tag1/</loc>
+    <lastmod>2024-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/tag2/</loc>
+    <lastmod>2024-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/</loc>
+    <lastmod>2024-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-09-27-mysql-interview/</loc>
+    <lastmod>2024-09-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/resume/</loc>
+    <lastmod>2024-09-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-09-20-bytedance/</loc>
+    <lastmod>2024-09-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/categories/grow/</loc>
+    <lastmod>2024-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-09-19-laoqiangshuo/</loc>
+    <lastmod>2024-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-09-19-job-feel/</loc>
+    <lastmod>2024-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/tags/up/</loc>
+    <lastmod>2024-09-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-09-18-shangweibuzu/</loc>
+    <lastmod>2024-09-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/categories/book/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/post/2024-09-12-resume-inside-out/</loc>
@@ -58,6 +82,9 @@
   </url><url>
     <loc>https://LBTer.github.io/post/2024-09-07-blockchain/</loc>
     <lastmod>2024-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://LBTer.github.io/post/2024-10-30-c%23/</loc>
+    <lastmod>2024-09-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://LBTer.github.io/post/2024-09-06-dropbox/</loc>
     <lastmod>2024-09-06T00:00:00+00:00</lastmod>

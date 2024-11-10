@@ -6,14 +6,35 @@
     <description>Recent content in Tag1 on LBT的 Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://LBTer.github.io/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An Example Post</title>
-      <link>https://LBTer.github.io/post/2024-09-12-richdad/</link>
-      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://LBTer.github.io/post/2024-09-12-richdad/</guid>
-      <description></description>
+      <link>https://LBTer.github.io/post/2024-09-29-kafka-interview/</link>
+      <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-09-29-kafka-interview/</guid>
+      <description>kafka如何保证一定能发送消息和接受消息 Kafka 确保消息传递的可靠性主要依赖于以下几个机制： 副本机制：Kafka 的每个分区都有多个副本，其中一个</description>
+    </item>
+    <item>
+      <title>An Example Post</title>
+      <link>https://LBTer.github.io/post/2024-09-27-mysql-interview/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-09-27-mysql-interview/</guid>
+      <description>mysql的乐观锁和悲观锁实现 悲观锁和乐观锁是两种常见的并发控制机制，用于处理多事务环境下的数据一致性问题。 悲观锁的实现原理： 悲观锁是一种保</description>
+    </item>
+    <item>
+      <title>面试记录</title>
+      <link>https://LBTer.github.io/post/2024-09-19-job-feel/</link>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-09-19-job-feel/</guid>
+      <description>面试整理</description>
+    </item>
+    <item>
+      <title>C#基础</title>
+      <link>https://LBTer.github.io/post/2024-10-30-c%23/</link>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://LBTer.github.io/post/2024-10-30-c%23/</guid>
+      <description>字符 // @ 可以保留输出原生字符 Console.WriteLine(@&amp;#34; c:\source\repos (this is where your code goes)&amp;#34;); // unicode可以直接输出 // Kon&amp;#39;nichiwa World Console.WriteLine(&amp;#34;\u3053\u3093\u306B\u3061\u306F World!&amp;#34;); // $前缀可直接引用拼接字符，还可以多种类型 int version = 11; string updateText = &amp;#34;Update</description>
     </item>
     <item>
       <title>技术补盲</title>
